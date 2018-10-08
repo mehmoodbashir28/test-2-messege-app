@@ -1,0 +1,74 @@
+body
+{
+    background-color: #a9d0da;
+}
+.main
+{
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    cursor: pointer; 
+}
+.form-control
+{
+    height: 80px;
+}
+.buttons
+{
+    padding: 16px;
+}
+.buttons
+{
+    height: 100%;
+    width: 100%;
+}
+.buttons > div , .Enter
+{
+    background-image: url(images/keyboard-key.png);
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    /*display: flex*/
+    ;
+}
+.buttons , .lastkey
+{
+    display: flex;
+    /*background-color: antiquewhite;*/
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.space 
+{
+    background-image: url(images/space-bar-key.png);
+    background-size: contain;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    
+}
+.lastkeys{
+    display: flex;
+}
+.key {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center
+}
